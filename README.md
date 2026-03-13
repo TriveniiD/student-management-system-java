@@ -1,21 +1,24 @@
-# Student Management System (Java)
+# Student Management System (Spring Boot)
 
-A console-based Student Management System built using Core Java.
+A RESTful backend application built using Java and Spring Boot to manage student records.
 
 ## Features
-- Add Student (10-digit ID validation)
-- View Students
-- Search Student
-- Delete Student
-- Update Marks
-- Duplicate ID prevention
-- Exception handling
+- Create student
+- View all students
+- Update student
+- Delete student
+- Validation and exception handling
 
 ## Technologies Used
 - Java
-- OOP Concepts
-- ArrayList
-- Exception Handling
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+- Postman
 
-## Project Type
-Console Application
+## How to Run
+1. Clone the repository
+2. Open in IntelliJ
+3. Run `StudentManagementApplication`
+4. Access APIs at `http://localhost:8081`
